@@ -26,7 +26,7 @@ export default function AnnaRod() {
             <i className="fa-brands fa-square-js" content="JS"></i>
           </div>
           <div className="c-live">
-            <a href="https://annarod.dk/index.html" target="_blank">
+            <a href="https://chrisrg.dk/annarod/" target="_blank">
               Live Site
             </a>
             <a href="https://github.com/ChristofferRodGreffel/AnnaRod.git" target="_blank">
