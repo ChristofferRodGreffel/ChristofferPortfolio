@@ -16,7 +16,7 @@ const checkMobile = () => {
 const setMargin = () => {
   const menuHeight = document.querySelector("#c-left").clientHeight;
   const projectHeight = document.querySelector("#c-right").clientHeight;
-  const content = document.querySelector("#content");
+  const content = document.querySelector("#projects");
 
   if (projectHeight > menuHeight) {
     const correctMargin = projectHeight - menuHeight + 50;
@@ -52,7 +52,7 @@ export default function Projects() {
     const viewportWidth = window.innerWidth;
     const menu = document.querySelector("#c-left");
     const project = document.querySelector("#c-right");
-    const content = document.querySelector("#content");
+    const content = document.querySelector("#projects");
 
     if (viewportWidth < 930) {
       menu.style.transform = "translateX(-100%)";
